@@ -13,7 +13,7 @@ async function login(username, password){
         password
     }
     //send login post request to backend
-    const response = await fetch("http://localhost:3000/api/auth/",{
+    const response = await fetch("https://m07-tutorial-backend.onrender.com/api/auth/",{
         method: "POST",
         headers: {
             "Content-Type" : "application/json"

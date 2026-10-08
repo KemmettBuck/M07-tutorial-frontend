@@ -28,7 +28,7 @@ addEventListener("DOMContentLoaded", async function(){
         genre: document.querySelector("#genre").value ? document.querySelector("#genre").value.split(",") : []
         }
 
-        const response = await fetch("http://localhost:3000/api/songs/" + songID, {
+        const response = await fetch("https://m07-tutorial-backend.onrender.com/api/songs/" + songID, {
             method: "PUT",
             headers: {
                 "Content-Type": "application/json"
