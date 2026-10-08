@@ -37,6 +37,6 @@ async function login(username, password){
         window.location.replace("/index.html")
     }
     else{
-        document.querySelector("errorMsg").innerHTML = "Bad username and Password"
+        document.querySelector("#errorMsg").innerHTML = "Bad username and Password"
     }
 }
